@@ -28,7 +28,6 @@ class problem_3{
                 break;
             default:
                 System.out.println("Invalid day number");
-                break;
         }
     }
 }
