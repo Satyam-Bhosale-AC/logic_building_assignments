@@ -16,5 +16,6 @@ class problem_2{
         System.out.println("Enter your age");
         int age = sc.nextInt();
         checkAgeCategory(age);
+        sc.close();
     }
 }

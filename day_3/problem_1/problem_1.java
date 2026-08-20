@@ -12,6 +12,6 @@ class problem_1{
         int b = sc.nextInt();
         int sum = sumOfTwoNumbers(a,b);
         System.out.println("sum : " + sum);
-        
+        sc.close();
     }
 }
