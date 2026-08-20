@@ -11,5 +11,6 @@ class problem_5{
         System.out.println("Enter a no. ");
         int n = sc.nextInt();
         printMultiplicationTable(n);
+        sc.close();
     }
 }
