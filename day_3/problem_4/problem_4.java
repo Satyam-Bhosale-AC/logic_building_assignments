@@ -11,6 +11,7 @@ class problem_4{
         } while(i <= 0);
 
         System.out.println("You entered a positive number: "+i);
+        sc.close();
     }
     public static void main(String args[]){
         askForPositiveNumber();
