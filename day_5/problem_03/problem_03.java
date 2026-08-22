@@ -1,15 +1,17 @@
 import java.util.*;
 
-class problem_2{
+class problem_03{
 
 	public static  void main(String args[]){
     	Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number: ");
 		int n = sc.nextInt();
-		for(int i = 1 ; i<=n  ; i++){
-			if(i%3==0)
-				System.out.print(i + " ");
+        int fact = 1;
+		for(int i = 1 ; i <= n ; i++){
+			fact *= i;
+			
 		}
+        System.out.print("Factorial is " + fact);
 		sc.close();
 	}
 }
